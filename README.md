@@ -8,11 +8,8 @@ How to manual for Linden Sutterm 2P microscope
  - Objective motor - MP285
  - PMT and mirrors - PS-2
  - Pockels cell - Conoptics 302RM (power strip under table)
+ - Laser - Turn key on front of Mai-Tai box (laser is not active until software is run)
 
-2. Turn on laser
- - Turn key on from of MaiTai laser
- - Run Mai-Tai software
- 
 3. Start software
  - MaiTai.
  Serial port needs to be correct, as of Sept 2015 it is COM4
