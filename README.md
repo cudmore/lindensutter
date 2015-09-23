@@ -27,7 +27,7 @@ How to manual for Linden Sutterm 2P microscope
    Select a valid .ini file, needs to have "port='COM13'"
 
  - Igor
- - 
+  
    Run mp285_2p.ipf
  
    In Igor, activate menus by clicking in Igor command window
