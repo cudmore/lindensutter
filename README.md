@@ -22,13 +22,16 @@ How to manual for Linden Sutterm 2P microscope
 
  - Matlab
  Start ScanImage by typing 'scanimage' in Matlab command prompt
- Select a valid .ini file, needs to have "port='COM13'"
+ 
+Select a valid .ini file, needs to have "port='COM13'"
 
  - Igor
  Run mp285_2p.ipf
  In Igor, activate menus by clicking in Igor command window
- Select menu 'mp285 -> Init User'
- Open a user .txt file
+ 
+Select menu 'mp285 -> Init User'
+ 
+Open a user .txt file
 
 ### Downloads
  - Example ScanImage .ini file
