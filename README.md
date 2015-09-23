@@ -56,6 +56,7 @@ How to manual for Linden Sutterm 2P microscope
   - red, xxx
   - green, xxx
  - **Scope Body**, Sutter MOM [link]
+ - **Scanners**, Cambridge xxx, 6mm mirrors
  - **Objective**, Zeiss 20x, xxx
  - **Software**, ScanImage 3.8, Igor Pro, Serial Splitter, MaiTai Control
  
