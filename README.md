@@ -20,7 +20,9 @@ How to manual for Linden Sutterm 2P microscope
 
 ### Downloads
  - Example ScanImage .ini file
+
  Critical to share serial port for objective motor
+
  - mp285 Igor code
  - Serial Splitter software
 
