@@ -44,10 +44,19 @@ How to manual for Linden Sutterm 2P microscope
 ### Wiring diagram
  - [upload images of how it is wired]
  - [link to scan image documentation]
- - 
+ 
 
 ### Parts list
- - PMT filters
-  - red
-  - green
- 
+ - **Laser**, MaiTai Deep see
+ - **Lamdba Half-Wave Plate**, xxx
+ - **Glan Polarizer**, xxx
+ - **Pockels cell**, xxx
+ - **Beam Expander**, xxx
+ - **Mirror Mounts**, xxx
+ - **Mirrors**, xxx
+ - **PMTs**, 2x Hamamatsu xxx, GaAsp
+ - PMT Filters
+  - red, xxx
+  - green, xxx
+ - **Scope Body**, Sutter MOM [link]
+ - **Objective**, Zeiss 20x, xxx
