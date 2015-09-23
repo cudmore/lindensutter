@@ -47,7 +47,7 @@ How to manual for Linden Sutterm 2P microscope
  
 
 ### Parts list
- - **Laser**, MaiTai Deep see
+ - **Laser**, MaiTai Deep-See
  - **Lamdba Half-Wave Plate**, xxx
  - **Glan Polarizer**, xxx
  - **Pockels cell**, xxx
@@ -55,8 +55,10 @@ How to manual for Linden Sutterm 2P microscope
  - **Mirror Mounts**, xxx
  - **Mirrors**, xxx
  - **PMTs**, 2x Hamamatsu xxx, GaAsp
- - PMT Filters
+ - **PMT Filters**
   - red, xxx
   - green, xxx
  - **Scope Body**, Sutter MOM [link]
  - **Objective**, Zeiss 20x, xxx
+ - **Software**, ScanImage 3.8, Igor Pro, Serial Splitter, MaiTai Control
+ 
