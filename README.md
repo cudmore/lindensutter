@@ -21,9 +21,9 @@ How to manual for Linden Sutterm 2P microscope
  COM1 is split into COM13 and COM14
 
  - Matlab
- Start ScanImage by typing 'scanimage' in Matlab command prompt
+   Start ScanImage by typing 'scanimage' in Matlab command prompt
  
- Select a valid .ini file, needs to have "port='COM13'"
+   Select a valid .ini file, needs to have "port='COM13'"
 
  - Igor
  Run mp285_2p.ipf
