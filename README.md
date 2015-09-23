@@ -23,6 +23,7 @@ How to manual for Linden Sutterm 2P microscope
  - Matlab
  
    Start ScanImage by typing 'scanimage' in Matlab command prompt 
+
    Select a valid .ini file, needs to have "port='COM13'"
 
  - Igor
