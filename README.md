@@ -21,7 +21,7 @@ How to manual for Linden Sutterm 2P microscope
 ### Downloads
  - Example ScanImage .ini file
 
- Critical to share objective motor serial port between MAtlab and Igor.
+ Critical to share objective motor serial port between Matlab and Igor.
 
  - Serial Splitter software
  Serial Splitter 5.0 by Etima Software
