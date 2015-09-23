@@ -23,10 +23,18 @@ How to manual for Linden Sutterm 2P microscope
 
  Critical to share serial port for objective motor
 
- - mp285 Igor code
  - Serial Splitter software
+ Serial Splitter 5.0 by Etima Software
+
+ - mp285 Igor code
 
 ### Wiring diagram
  - [upload images of how it is wired]
  - [link to scan image documentation]
  - 
+
+### Parts list
+ - PMT filters
+  - red
+  - green
+ 
