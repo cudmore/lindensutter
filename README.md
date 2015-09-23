@@ -27,18 +27,19 @@ How to manual for Linden Sutterm 2P microscope
    Select a valid .ini file, needs to have "port='COM13'"
 
  - Igor
- Run mp285_2p.ipf
+ - 
+   Run mp285_2p.ipf
  
- In Igor, activate menus by clicking in Igor command window
+   In Igor, activate menus by clicking in Igor command window
  
- Select menu 'mp285 -> Init User'
+   Select menu 'mp285 -> Init User'
  
- Open a user .txt file
+   Open a user .txt file
 
 ### Downloads
  - Example ScanImage .ini file
 
- Critical to share objective motor serial port between Matlab and Igor.
+   Critical to share objective motor serial port between Matlab and Igor.
 
  - Serial Splitter software
  Serial Splitter 5.0 by Etima Software
