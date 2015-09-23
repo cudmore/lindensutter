@@ -3,7 +3,7 @@ How to manual for Linden Sutterm 2P microscope
 
 ### Starting up the scope
 
-1. Power all equipment
+1. Turn on all equipment
  - Scanners - MDR-6
  - Objective motor - MP285
  - PMT and mirrors - PS-2
@@ -21,7 +21,7 @@ How to manual for Linden Sutterm 2P microscope
 ### Downloads
  - Example ScanImage .ini file
 
- Critical to share serial port for objective motor
+ Critical to share objective motor serial port between MAtlab and Igor.
 
  - Serial Splitter software
  Serial Splitter 5.0 by Etima Software
