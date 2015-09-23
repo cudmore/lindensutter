@@ -20,9 +20,9 @@ How to manual for Linden Sutterm 2P microscope
  - Serial Splitter
  COM1 is split into COM13 and COM14
 
- - Matlab 
-   Start ScanImage by typing 'scanimage' in Matlab command prompt
-   Select a valid .ini file, needs to have "port='COM13'"
+ - Matlab.
+   Start ScanImage by typing 'scanimage' in Matlab command prompt.
+   Select a valid .ini file, needs to have "port='COM13'".
 
  - Igor
   
