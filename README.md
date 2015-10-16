@@ -61,10 +61,11 @@ How to manual for Linden Sutterm 2P microscope
  - **Software**, ScanImage 3.8, Igor Pro, Serial Splitter, MaiTai Control
  
 ### Consumables
-  - Purge Filter, 90035539, dessicant filter in the lsaer head
+Order these at [Spectra-Physics Service Parts and Consumables](http://www.spectra-physics.com/service/service-parts)
+
+  - Purge Filter, 90035539, dessicant filter in the laser head
   - Water filter, 2604-0488 or 2604-0488, simple water filter in blue bucket on back of chiller
-  - NALCO circulating solution, 1 gallon - fill tank as required, 1607-0546
-  - NALCO cleaner solution, 1 gallon - to be used as required to clean contaminated chiller,1607-0547
-  - These can be ordered on [Spectra-Physics Service Parts and Consumables](http://www.spectra-physics.com/service/service-parts)
-  - 
-  
+  - 1607-0546, NALCO circulating solution, 1 gallon - fill tank as required
+  - 1607-0547, NALCO cleaner solution, 1 gallon - to be used as required to clean contaminated chiller
+  - 0129-9323S, J-series Power Supply, air filters J40/J80 (qty.3)
+
