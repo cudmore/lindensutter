@@ -33,7 +33,7 @@ How to manual for Linden Sutterm 2P microscope
    Critical to share objective motor serial port between Matlab and Igor.
 
  - Serial Splitter software
- Serial Splitter 5.0 by Etima Software
+ [Serial Port Splitter 5.0](http://www.eltima.com/products/serialsplitter/) by Etima Software
 
  - Igor code for mp285_2p
  - Example mp285_2p user .txt file
