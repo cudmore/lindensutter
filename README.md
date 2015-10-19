@@ -44,7 +44,7 @@ How to manual for Linden Sutterm 2P microscope
  
 
 ### Parts list
- - **Laser**, MaiTai Deep-See
+ - **Laser**, MaiTai Deep-See, Serial #4754
  - **Lamdba Half-Wave Plate**, xxx
  - **Glan Polarizer**, xxx
  - **Pockels cell**, xxx
@@ -53,8 +53,8 @@ How to manual for Linden Sutterm 2P microscope
  - **Mirrors**, xxx
  - **PMTs**, 2x Hamamatsu xxx, GaAsp
  - **PMT Filters**
-  - red, xxx
-  - green, xxx
+  - Red, original was HQ610/75m, replaced May 2015 with ET620/60m 
+  - Green, xxx
  - **Scope Body**, Sutter MOM [link]
  - **Scanners**, Cambridge xxx, 6mm mirrors
  - **Objective**, Zeiss 20x, xxx
