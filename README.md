@@ -59,7 +59,12 @@ How to manual for Linden Sutterm 2P microscope
  - **Scanners**, Cambridge xxx, 6mm mirrors
  - **Objective**, Zeiss 20x, xxx
  - **Software**, ScanImage 3.8, Igor Pro, Serial Splitter, MaiTai Control
- 
+
+### Emmission path filters
+
+ - Top PMT is HQ 535/50 M 2P 18 DEG 219730
+ - Right PMT is ET 620/60 M 291809
+
 ### Consumables
 Order these at [Spectra-Physics Service Parts and Consumables](http://www.spectra-physics.com/service/service-parts)
 
