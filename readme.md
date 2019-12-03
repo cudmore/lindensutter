@@ -1,5 +1,5 @@
 
-## Scan Image
+## Scan Image Version
 
 Using ScanImage 'SI5.6R1', download from here:
 
@@ -9,27 +9,6 @@ Most of what we need to do with scanimage is documented here:
 
 https://vidriotechnologies.com/resources/#faq
 
-## Split the objective motor serial port into two virtual serial ports.
-
-This is so both Matlab and Igor Pro can both communicate with the objective motor controller (MP-285) serial port. They  never actually communicate at the same time.
-
-Download and install Eltima 'virtual serial port driver pro'
-
-https://www.eltima.com/products/vspdxp/#vspd-versions
-
-We previously used older 'serial port splitter' version
-
-https://www.eltima.com/products/serialsplitter/
-
-
-## To upgrade igor-canvas
-
-- [x] Ensure video aquisition works in Igor Pro 7 on Windows 10
-- [ ] Rewrite video image acquisition code to be compatible with Igor 7.x
-- [ ] Make sure serial port splitter works
-- [ ] Add code to read the header of ScanImage 'SI5.6R1' files
-
-Video driver for xxx video to usb card was downloaded from yyy.
 
 ## New hardware
 
@@ -90,6 +69,18 @@ http://scanimage.vidriotechnologies.com/display/SI2019/Acquisition+Triggering
 
 ## General notes
 
+#### Split the objective motor serial port into two virtual serial ports.
+
+This is so both Matlab and Igor Pro can both communicate with the objective motor controller (MP-285) serial port. They  never actually communicate at the same time.
+
+Download and install Eltima 'virtual serial port driver pro'
+
+https://www.eltima.com/products/vspdxp/#vspd-versions
+
+We previously used older 'serial port splitter' version
+
+https://www.eltima.com/products/serialsplitter/
+
 #### PMT Amplifiers
 
 The PMT amplifiers are 'VARIABLE GAIN HIGH SPEED CURRENT AMPLIFIER DHPCA-100' and can be found here
@@ -143,8 +134,12 @@ The reason to use the periscope is it moves front/back with the scanner/mirrors 
 
 #### Igor Canvas software
 
-- [ ] Rewrite Igor code to use NewCamera, ModifyCamera and GetCamera.
+- [x] Ensure video aquisition works in Igor Pro 7 on Windows 10
+- [ ] Rewrite Igor code to be compatible with Igor 7, use: NewCamera, ModifyCamera and GetCamera.
+- [ ] Make sure serial port splitter works and Igor canvas cann control MP-285 motor
 - [ ] Add code to read SI5.6R1 Tiff headers
+
+Video driver for xxx video to usb card was downloaded from yyy.
 
 
 
