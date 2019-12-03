@@ -147,8 +147,8 @@ Need to save to disk other than system disk c:\. Should be a solid-state-drive a
 - [ ] Install new PCI card (PCIE-8361) in computer and connect to NI box
 - [ ] Put all cards in NI box
 - [ ] Attach two (2x) NI 2090a breakouts to NI box
-- [ ] Remove existing NI cards from small rack on floor.
-- [ ] Get NI Box and 2x NI 2090a breakouts in small rack on floor
+- [ ] Remove existing NI breakouts from small rack on floor.
+- [ ] Get NI Box and 2x NI 2090a breakouts in small rack on floor, maybe move conoptics box to the side.
 - [ ] Move computer back under table
 - [ ] Decide if we should use periscope or mirror on table. First find the periscope.
 
