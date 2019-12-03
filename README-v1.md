@@ -74,3 +74,26 @@ Order these at [Spectra-Physics Service Parts and Consumables](http://www.spectr
   - 1607-0547, NALCO cleaner solution, 1 gallon - to be used as required to clean contaminated chiller
   - 0129-9323S, J-series Power Supply, air filters J40/J80 (qty.3)
 
+### Mai Tai is com4
+
+need to replace purge filter, humidity is 18%, Yikes !!!, should be 3%-5%
+
+purge filter is either: 
+
+    PN 0135 1707
+
+### Emmission path filters
+
+ - Top PMT is HQ 535/50 M 2P 18 DEG 219730
+ - Right PMT is ET 620/60 M 291809
+
+### Consumables
+Order these at [Spectra-Physics Service Parts and Consumables](http://www.spectra-physics.com/service/service-parts)
+
+  - Purge Filter, 90035539, dessicant filter in the laser head
+  - Water filter, 2604-0488 or 2604-0488, simple water filter in blue bucket on back of chiller
+  - 1607-0546, NALCO circulating solution, 1 gallon - fill tank as required
+  - 1607-0547, NALCO cleaner solution, 1 gallon - to be used as required to clean contaminated chiller
+  - 0129-9323S, J-series Power Supply, air filters J40/J80 (qty.3)
+
+
