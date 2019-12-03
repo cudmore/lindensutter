@@ -154,3 +154,17 @@ https://www.ni.com/en-us/support/downloads/drivers/download/packaged.flexrio.329
 2. installed ni serial driver, **ni 232**
 
 https://www.ni.com/en-us/support/downloads/drivers/download/packaged.ni-serial.329032.html
+
+## scanimage updated as of 12/3 (today), this is the updates:
+
+```
+Support for vDAQ
+New Motor Controls
+New Stack Controls
+Live motor position update (MP285, Zaber, Thorlabs MCM3000, Scientifica Stages)
+Introduction of global Coordinate System
+Add support for DAQmx 19.5
+Channel window: add crosshair for each ROI
+Introduction of Error Log and GUI Log
+```
+
