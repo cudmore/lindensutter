@@ -16,7 +16,7 @@ See the 'resonant scanning - required' section on the followinig page:
 
 http://scanimage.vidriotechnologies.com/display/SI2019/Supported+Microscope+Hardware
 
-1. Chassis controller, ****NI PCIE-8361**
+1. Chassis controller, **NI PCIE-8361**
 
 Plugs inside computer and then is wired to the chassis.
 
