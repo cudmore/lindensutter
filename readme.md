@@ -132,14 +132,16 @@ Need to save to disk other than system disk c:\. Should be a solid-state-drive a
 
 ## Progress and plan
 
-Monday, 1pm-6pm
+### Monday, 1pm-6pm
 
 - [x] Pulled out old equipment and cables
 - [x] Installed Igor Pro 7
 - [x] Installed video driver to aquire analog video
 - [x] Verified Igor Pro 7 could show a video window
 
-Tuesday (to do)
+### Tuesday (to do)
+
+#### Hardware
 
 - [ ] Pull 2x old NI PCI cards out of computer
 - [ ] Install new PCI card (PCIE-8361) in computer and connect to NI box
@@ -148,12 +150,15 @@ Tuesday (to do)
 - [ ] Remove existing NI cards from small rack on floor.
 - [ ] Get NI Box and 2x NI 2090a breakouts in small rack on floor
 - [ ] Move computer back under table
-
-- [ ] See if we need to install NI drivers. What exactly did Sutter do with the computer?
-- [ ] Try to fire up matlab/scanimage and create first 'Machine Data File (MDF)'.
-
 - [ ] Decide if we should use periscope or mirror on table. First find the periscope.
 
 The reason to use the periscope is it moves front/back with the scanner/mirrors as image size and brightness is optimized. Problem is with original design of the light path (my fault) where the laser comes in from the right (not the back). Thus, when scanners are moved front to back, two mirrors need to be moved on the table. A parsomonious solution would be to reroute the laser to come in the back of the light box and use the periscope.
+
+#### Software
+
+- [ ] See if we need to install NI drivers. What exactly did Sutter do with the computer?
+- [ ] Try to fire up matlab/scanimage and create first 'Machine Data File (MDF)'.
+- [ ] Rewrite Igor code to use NewCamera, ModifyCamera and GetCamera.
+
 
 
