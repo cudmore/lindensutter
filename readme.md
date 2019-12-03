@@ -143,7 +143,7 @@ Video driver for xxx video to usb card was downloaded from yyy.
 
 ## 20191203
 
-installed new ni driver to talk to **NI PXIE 7961R** and maybe **NI 5732**.
+1. installed new ni driver to talk to **NI PXIE 7961R** and maybe **NI 5732**.
 
 It is called 'FlexRIO 19.5'
 
@@ -151,3 +151,6 @@ download here:
 
 https://www.ni.com/en-us/support/downloads/drivers/download/packaged.flexrio.329052.html
 
+2. installed ni serial driver, **ni 232**
+
+https://www.ni.com/en-us/support/downloads/drivers/download/packaged.ni-serial.329032.html
