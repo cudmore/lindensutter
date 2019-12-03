@@ -42,6 +42,8 @@ https://www.eltima.com/products/serialsplitter/
 
 - [x] Ensure video aquisition works on Windows 10
 - [ ] Rewrite video image acquisition code to be compatible with Igor 7.x
+- [ ] make sure serial port splitter work
+- [ ] add code to read the header of ScanImage 'SI5.6R1' files
 
 #### Notes
 
@@ -53,19 +55,31 @@ See the 'resonant scanniing - required' section on the followinig page:
 
 http://scanimage.vidriotechnologies.com/display/SI2019/Supported+Microscope+Hardware
 
-1. Chassis/controller, 	**PXIe-1073**
+1. Chassis, 	**PXIe-1073**
 
-The chassis has a PCIIe controller card in the computer
+2. Chassis controller, ****PCIE-8361**
 
-    PCIe x1 for MXI controller connecting to the PXI chassis
+Plugs insiide computer and to chassis
 
-2. Digitizer, CCA **NI 5732** (14B 80M 2AI)
+3. Scan Control DAQ, CCA NI **PXIE 6341**
 
-3. FPGA Module, CCA, **PXIE 7961R,66** (LVDS PAIRS, 5VSX5OT)
+Inside chassis
 
-4. Pockels control, 2x CCA NI **PXIE 6341**
+4. Digitizer, CCA **NI 5732** (14B 80M 2AI)
 
-5. CCA, **PCIE-8361**
+Inside chassis
+
+5. FPGA Module, CCA, **PXIE 7961R,66** (LVDS PAIRS, 5VSX5OT)
+
+Inside chassis
+
+6. Pockels control, CCA NI **PXIE 6341**
+
+Inside chassis
+
+7. NI breakout 1.
+
+8. NI breakout 2.
 
 
 
