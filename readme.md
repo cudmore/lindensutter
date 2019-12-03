@@ -141,5 +141,13 @@ The reason to use the periscope is it moves front/back with the scanner/mirrors 
 
 Video driver for xxx video to usb card was downloaded from yyy.
 
+## 20191203
 
+installed new ni driver to talk to **NI PXIE 7961R** and maybe **NI 5732**.
+
+It is called 'FlexRIO 19.5'
+
+download here:
+
+https://www.ni.com/en-us/support/downloads/drivers/download/packaged.flexrio.329052.html
 
