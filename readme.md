@@ -143,10 +143,10 @@ Tuesday (to do)
 
 - [ ] Install PCI card in computer and connect to NI box
 - [ ] Put all cards in NI box
-- [ ] Attach NI 2090a breakout to box
+- [ ] Attach two (2x) NI 2090a breakouts to NI box
 - [ ] Move computer back under table
 
-- [ ] See if we need to install ni drivers. What exactly did Sutter do with the computer?
+- [ ] See if we need to install NI drivers. What exactly did Sutter do with the computer?
 - [ ] Try to fire up matlab and create first 'Machine Data File (MDF)'.
 
 
