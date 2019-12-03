@@ -17,9 +17,9 @@ be sure to follow the links:
 - [ ] Plug in all hardware
 - [ ] Specify a 'Machine Data File (MDF)'?
 
-see [machine data file][maching-data-filer]
+see [machine data file][machine-data-file]
 
-machinie-data-file: http://scanimage.vidriotechnologies.com/display/SI2019/Machine+Data+File
+machine-data-file: http://scanimage.vidriotechnologies.com/display/SI2019/Machine+Data+File
 
 ## Split the objective motor serial port into two virtual serial ports.
 
