@@ -1,17 +1,13 @@
 
 ## Scan Image
-Using ScanImage SI5.6R1	
-
-download from here:
+Using ScanImage 'SI5.6R1', download from here:
 
 https://vidriotechnologies.com/download-scanimage/#free
 
-be sure to follow the links:
+Most of what we need to do with scanimage is here
 
- - documentation
- - readme
- - hardware requirements
- 
+https://vidriotechnologies.com/resources/#faq
+
 ## To get scanimage up and running
 
 - [ ] Plug in all hardware
@@ -42,50 +38,45 @@ https://www.eltima.com/products/serialsplitter/
 
 - [x] Ensure video aquisition works on Windows 10
 - [ ] Rewrite video image acquisition code to be compatible with Igor 7.x
-- [ ] make sure serial port splitter work
-- [ ] add code to read the header of ScanImage 'SI5.6R1' files
+- [ ] Make sure serial port splitter work
+- [ ] Add code to read the header of ScanImage 'SI5.6R1' files
 
 #### Notes
 
- - Video driver for xxx viideo to usb card was downloaded from yyy.
+ - Video driver for xxx video to usb card was downloaded from yyy.
 
 ## New hardware
 
-See the 'resonant scanniing - required' section on the followinig page:
+See the 'resonant scanning - required' section on the followinig page:
 
 http://scanimage.vidriotechnologies.com/display/SI2019/Supported+Microscope+Hardware
 
-1. Chassis, 	**PXIe-1073**
+1. Chassis controller, ****PCIE-8361**
 
-2. Chassis controller, ****PCIE-8361**
+Plugs inside computer and then is wired to the chassis.
 
-Plugs insiide computer and to chassis
+2. Chassis, 	**PXIe-1073**
+
+Box that holds all other cards
 
 3. Scan Control DAQ, CCA NI **PXIE 6341**
 
-Inside chassis
+Inside chassis, wired to 2090a breakout, then BNC input from pmts
 
 4. Digitizer, CCA **NI 5732** (14B 80M 2AI)
 
-Inside chassis
+Inside chassis, output to scanners
 
 5. FPGA Module, CCA, **PXIE 7961R,66** (LVDS PAIRS, 5VSX5OT)
 
-Inside chassis
+Inside chassis, not sure on connections? connects to 'digitizer'?
 
 6. Pockels control, CCA NI **PXIE 6341**
 
-Inside chassis
-
-7. NI breakout 1.
-
-8. NI breakout 2.
+Inside chassis, wired to 2090a breakout, then BNC to both pockels in/out and shutter out
 
 
-
-## General notes
-
-#### Wiring guide
+## Wiring the system
 
 resonant scanners
 
@@ -99,7 +90,9 @@ acquisition triggering
 
 http://scanimage.vidriotechnologies.com/display/SI2019/Acquisition+Triggering
 
-#### PMT Ampliifiers
+## General notes
+
+#### PMT Amplifiers
 
 The PMT amplifiers are 'VARIABLE GAIN HIGH SPEED CURRENT AMPLIFIER DHPCA-100' and can be found here
 
@@ -136,5 +129,24 @@ http://scanimage.vidriotechnologies.com/display/SI2019/Beams
 
 Need to save to disk other than system disk c:\. Should be a solid-state-drive and run at >= 300Mb/second.
 
+
+## Progress and plan
+
+Monday, 1pm-6pm
+
+- [x] Pulled out old equipment and cables
+- [x] Installed Igor Pro 7
+- [x] Installed video driver to aquire analog video
+- [x] Verified Igor Pro 7 could show a video window
+
+Tuesday (to do)
+
+- [ ] Install PCI card in computer and connect to NI box
+- [ ] Put all cards in NI box
+- [ ] Attach NI 2090a breakout to box
+- [ ] Move computer back under table
+
+- [ ] See if we need to install ni drivers. What exactly did Sutter do with the computer?
+- [ ] Try to fire up matlab and create first 'Machine Data File (MDF)'.
 
 
