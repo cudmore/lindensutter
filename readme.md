@@ -141,12 +141,19 @@ Monday, 1pm-6pm
 
 Tuesday (to do)
 
-- [ ] Install PCI card in computer and connect to NI box
+- [ ] Pull 2x old NI PCI cards out of computer
+- [ ] Install new PCI card (PCIE-8361) in computer and connect to NI box
 - [ ] Put all cards in NI box
 - [ ] Attach two (2x) NI 2090a breakouts to NI box
+- [ ] Remove existing NI cards from small rack on floor.
+- [ ] Get NI Box and 2x NI 2090a breakouts in small rack on floor
 - [ ] Move computer back under table
 
 - [ ] See if we need to install NI drivers. What exactly did Sutter do with the computer?
-- [ ] Try to fire up matlab and create first 'Machine Data File (MDF)'.
+- [ ] Try to fire up matlab/scanimage and create first 'Machine Data File (MDF)'.
+
+- [ ] Decide if we should use periscope or mirror on table. First find the periscope.
+
+The reason to use the periscope is it moves front/back with the scanner/mirrors as image size and brightness is optimized. Problem is with original design of the light path (my fault) where the laser comes in from the right (not the back). Thus, when scanners are moved front to back, two mirrors need to be moved on the table. A parsomonious solution would be to reroute the laser to come in the back of the light box and use the periscope.
 
 
