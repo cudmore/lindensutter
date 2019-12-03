@@ -85,6 +85,20 @@ Inside chassis
 
 ## General notes
 
+#### Wiring guide
+
+resonant scanners
+
+http://scanimage.vidriotechnologies.com/pages/viewpage.action?pageId=28377185
+
+shutter
+
+http://scanimage.vidriotechnologies.com/display/SI2019/Shutter+Configuration
+
+acquisition triggering
+
+http://scanimage.vidriotechnologies.com/display/SI2019/Acquisition+Triggering
+
 #### PMT Ampliifiers
 
 The PMT amplifiers are 'VARIABLE GAIN HIGH SPEED CURRENT AMPLIFIER DHPCA-100' and can be found here
@@ -102,20 +116,25 @@ For resonant scanning a bandwidth of at least 30 Mhz is recommended.
 The Femto DHCPA-100 is a commercial off-the-shelf option suited for ScanImage 5 and later, at its 80MHz setting.
 ```
 
-#### Saving to disk
-
-Need to save to disk other than system disk c:\. Should be a solid-state-drive and run at >= 300Mb/second.
-
 #### Objective motor controller
 
 Using the Sutter MP285
 
 https://www.sutter.com/MICROMANIPULATION/mp285.html
 
+how to configure in scanimage
+
+http://scanimage.vidriotechnologies.com/display/SI2019/Stage+Controllers+%28Motors%29+Settings
+
 #### Pockels cell
 
 see following notes on using a Pockels cell with scannimage
 
 http://scanimage.vidriotechnologies.com/display/SI2019/Beams
+
+#### Saving to disk
+
+Need to save to disk other than system disk c:\. Should be a solid-state-drive and run at >= 300Mb/second.
+
 
 
