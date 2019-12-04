@@ -174,6 +174,6 @@ Introduction of Error Log and GUI Log
 2. See if manually entering mp285, baud etc in machine file fixes ScanIgor error
 3. If that does now work, downgrade to
 
- - ScanImage SI5.6R0	June 3, 2019
+ - SI5.6R1	June 7, 2019
  - NI DAQmx 19.0
 
