@@ -145,6 +145,12 @@ Video driver for xxx video to usb card was downloaded from yyy.
 
 1. installed new ni driver to talk to **NI PXIE 7961R** and maybe **NI 5732**.
 
+download flex 19.0 (for older scanimage)
+
+https://www.ni.com/en-us/support/downloads/drivers/download.flexrio.html#305930
+
+Do not do this ...
+
 It is called 'FlexRIO 19.5'
 
 download here:
