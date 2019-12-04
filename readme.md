@@ -116,20 +116,20 @@ Need to save to disk other than system disk c:\. Should be a solid-state-drive a
 
 #### Hardware
 
-- [ ] Pull 2x old NI PCI cards out of computer
-- [ ] Install new NI PCI card (PCIE-8361) in computer and connect to NI box
-- [ ] Put all NI cards in NI box
-- [ ] Attach two (2x) NI 2090a breakouts to NI box
-- [ ] Remove existing NI breakouts from small rack on floor.
-- [ ] Get NI Box and 2x NI 2090a breakouts in small rack on floor, maybe move conoptics box to the side.
-- [ ] Move computer back under table
+- [x] Pull 2x old NI PCI cards out of computer
+- [x] Install new NI PCI card (PCIE-8361) in computer and connect to NI box
+- [x] Put all NI cards in NI box
+- [x] Attach two (2x) NI 2090a breakouts to NI box
+- [x] Remove existing NI breakouts from small rack on floor.
+- [x] Get NI Box and 2x NI 2090a breakouts in small rack on floor, maybe move conoptics box to the side.
+- [x] Move computer back under table
 - [ ] Decide if we should use periscope or mirror on table. First find the periscope.
 
 The reason to use the periscope is it moves front/back with the scanner/mirrors as image size and brightness is optimized. Problem is with original design of the light path (my fault) where the laser comes in from the right (not the back). Thus, when scanners are moved front to back, two mirrors need to be moved on the table. A parsomonious solution would be to reroute the laser to come in the back of the light box and use the periscope.
 
 #### NI/Matlab/ScanImage Software
 
-- [ ] See if we need to install NI drivers. What exactly did Sutter do with the computer?
+- [x] See if we need to install NI drivers. What exactly did Sutter do with the computer?
 - [ ] Try to fire up matlab/scanimage and create first 'Machine Data File (MDF)'.
 
 #### Igor Canvas software
@@ -150,7 +150,7 @@ It is called 'FlexRIO 19.5'
 download here:
 
 https://www.ni.com/en-us/support/downloads/drivers/download/packaged.flexrio.329052.html
-
+ 
 2. installed ni serial driver, **ni 232**
 
 https://www.ni.com/en-us/support/downloads/drivers/download/packaged.ni-serial.329032.html
@@ -167,4 +167,13 @@ Add support for DAQmx 19.5
 Channel window: add crosshair for each ROI
 Introduction of Error Log and GUI Log
 ```
+
+## todo 20191204
+
+1. See if Igor can talk to mp285 (to check the mp285 serial is working at all)
+2. See if manually entering mp285, baud etc in machine file fixes ScanIgor error
+3. If that does now work, downgrade to
+
+ - ScanImage SI5.6R0	June 3, 2019
+ - NI DAQmx 19.0
 
