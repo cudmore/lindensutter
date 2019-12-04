@@ -177,3 +177,8 @@ Introduction of Error Log and GUI Log
  - SI5.6R1	June 7, 2019
  - NI DAQmx 19.0
 
+
+Download ni drivers called 'ni DAQmax 19.0' here,
+
+http://www.ni.com/en-us/support/downloads/drivers/download.ni-daqmx.html#301173
+
