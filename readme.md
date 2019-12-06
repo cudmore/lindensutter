@@ -188,7 +188,27 @@ Download ni drivers called 'ni DAQmax 19.0' here,
 
 http://www.ni.com/en-us/support/downloads/drivers/download.ni-daqmx.html#301173
 
-### Mai Tai is com4
+## Video driver
+
+Using the 'ion video 2 pc mkii'
+
+download driver
+
+https://support.encodedmedia.com/article/110-installing-the-ion-external-usb-video-capture-device
+
+shows up in device manager as 'USB 2861 Device'
+
+Notes: Igor seems to recognize the driver, windows 'camera' does not.
+
+
+## Serial port splitter
+
+This is so both Matlab/ScanImage and Igor pro can share one serial port provided by sutter mp-285 motor controller.
+
+
+https://www.eltima.com/vspdpro-post-download.html
+
+### Mai Tai is com3 (can/will change if hardware attached to computer is unplugged or plugged in)
 
 need to replace purge filter (order PN 0135 1707), humidity is 18%, Yikes !!!, should be 3%-5%
 
