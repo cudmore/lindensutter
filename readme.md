@@ -252,3 +252,5 @@ mp285 controller is having problems with
  root:bMovie:liveFlipInterval = 0.5
  ```
  
+ The video to usb dongle i am using will lock up igor when in (i) live flip and (ii) you grab and image !!!
+ 
