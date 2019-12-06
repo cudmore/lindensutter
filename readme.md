@@ -237,5 +237,18 @@ Order these at [Spectra-Physics Service Parts and Consumables](http://www.spectr
 On linden sutterewe have odd number of mirrors b/w objective and video camera, video image always has to be flipped in horizontal
 
 ```
-root:MapManager3:options:mp285:gCaptureVideoFromMatlab = 1
+root:MapManager3:options:mp285:gFlipVideoHorizontal = 1
 ```
+
+mp285 controller is having problems with
+ - numbers read into ScanImage and Igor. Both are the same! But both are different from what is displayed on the mp285 controller
+ - when moving in matlab or igor, it is SLOW
+ - left/right was swapped from previous install?
+ 
+ the analog video to usb converter i found in a bow seems to be slow. Slow down the refresh rate of live flip
+ 
+ ```
+ #root:bMovie:liveFlipInterval = 0.2
+ root:bMovie:liveFlipInterval = 0.5
+ ```
+ 
