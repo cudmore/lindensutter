@@ -102,6 +102,11 @@ The Femto DHCPA-100 is a commercial off-the-shelf option suited for ScanImage 5 
 
 Need to save to disk other than system disk c:\. Should be a solid-state-drive and run at >= 300Mb/second.
 
+#### Do not save negative values ni ScanImage Tiff files
+
+ - Users must turn off 'auto read' checkbox and set the offset to 8192.
+ - In my Fiji scripts that convert ScanImage Tiff to a Tiff I will use in my analysis, there will never be negative values thus no special action is needed.
+
 
 ## Progress and plan
 
