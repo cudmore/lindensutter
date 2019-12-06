@@ -262,4 +262,6 @@ To debug igor canvas seriaL (MP285) COMMANDS
 root:MapManager3:options:mp285:gVerboseSerialCommands = 1
 ```
 
+VIDEO CAMERA IS NOT ALIGNED. 
+
  
