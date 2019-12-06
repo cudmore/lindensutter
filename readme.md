@@ -104,7 +104,7 @@ Need to save to disk other than system disk c:\. Should be a solid-state-drive a
 
 #### Do not save negative values ni ScanImage Tiff files
 
- - Users must turn off 'auto read' checkbox and set the offset to 8192.
+ - Users must turn off 'auto read' checkbox and set the offset to 8192. This is in 'CHANNELS' window, turn off 'Auto Read' checkbox and set 'Offset' column for each PMT to '8192'. 
  - In my Fiji scripts that convert ScanImage Tiff to a Tiff I will use in my analysis, there will never be negative values thus no special action is needed.
 
 
@@ -232,4 +232,10 @@ Order these at [Spectra-Physics Service Parts and Consumables](http://www.spectr
   - 0129-9323S, J-series Power Supply, air filters J40/J80 (qty.3)
 
 
+## Igor Canvas notes
 
+On linden sutterewe have odd number of mirrors b/w objective and video camera, video image always has to be flipped in horizontal
+
+```
+root:MapManager3:options:mp285:gCaptureVideoFromMatlab = 1
+```
