@@ -245,7 +245,7 @@ mp285 controller is having problems with
  - when moving in matlab or igor, it is SLOW
  - left/right was swapped from previous install?
  
- the analog video to usb converter i found in a bow seems to be slow. Slow down the refresh rate of live flip
+ The analog video to usb converter I found in a box seems to be slow. Slow down the refresh rate of live flip. In the future swap back in the DC60 dongle (Driver is tricky to install). When doing this make sure there is only one video to usb on the system. Igor Canvas will always use first one it finds.
  
  ```
  #root:bMovie:liveFlipInterval = 0.2
