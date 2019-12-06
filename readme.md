@@ -254,3 +254,12 @@ mp285 controller is having problems with
  
  The video to usb dongle i am using will lock up igor when in (i) live flip and (ii) you grab and image !!!
  
+ After move with arrows in canvas, motor position is not read? You lose the red x to show current position. This is probably a timing problem because the stage (for some rerason) is moving really slow.
+
+To debug igor canvas seriaL (MP285) COMMANDS
+
+```
+root:MapManager3:options:mp285:gVerboseSerialCommands = 1
+```
+
+ 
